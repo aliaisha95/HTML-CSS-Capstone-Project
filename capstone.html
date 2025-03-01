@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Health Planner</title>
+</head>
+
+<body>
+  <h1>Welcome to Health Planner!</p>
+    <form action="/form-handling-url" method="post">
+      <fieldset>
+        <legend>Add user</legend>
+    
+        <div>
+          <label for="firstName">First name</label>
+          <input type="text" id="firstName" name="first_name">
+        </div>
+    
+        <div>
+          <label for="lastName">Last name</label>
+          <input type="text" id="lastName" name="last_name">
+        </div>
+    
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email_address">
+        </div>
+    
+        <div>
+          <label for="gender">Gender</label>
+          <select id="gender" name="user_role_name">
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="prefernottodisclose">Prefer not to disclose</option>
+          </select>
+        </div>
+    
+        <div>
+          <label for="dateofbirth">Date of Birth</label>
+          <input type="date" id="dateofbirth" name="Date of Birth">
+        </div>
+    
+        <div>
+          <label for="goals">Goals</label>
+          <textarea id="goals" name="Goals"></textarea>
+        </div>
+    
+        <div>
+          <input type="checkbox" id="newsletter" name="Sign up for newsletter" checked />
+          <label for="newsletter">Sign up for newsletter</label>
+        </div>
+
+        <div>
+          <button type="submit">Create Account</button>
+        </div>
+    
+      </fieldset>
+    </form>
+    
+    
+  <h2>Weight Training</h2>
+  <p>
+    Anchor tags create links to other pages. The URL goes in the `href` attribute.
+    <a href="https://duckduckgo.com">
+      Go to DuckDuckGo to search for more information.
+    </a>
+  </p>
+  <p>
+    Setting `target="_blank"` will open the link in a new window. See
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">
+      MDN
+    </a>
+    for more details.
+  </p>
+  <p>Upper Body</p>
+  <p>Lower Body</p>
+  <p>Full Body</p>
+  
+
+</body>
+
+</html>
